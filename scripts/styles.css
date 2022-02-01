@@ -1,5 +1,3 @@
-
-
 #TestWebsite {
     color : blue;
     position: relative;
@@ -85,22 +83,21 @@ body {
 
 #ExperienceButton {
     font-size: 20px;
-    border: outset;
-    table-layout: fixed;
-    border-collapse: collapse;
     width : 120px;
-    text-align: left;
-    border-radius: 25%;
 }
 
 #ContactButton {
     font-size: 20px;
-    border: outset;
-    table-layout: fixed;
-    border-collapse: collapse;
+    border: none;
     width : 120px;
-    text-align: left;
-    border-radius: 25%;
+}
+
+#ExperienceButton:hover {
+    font-weight: 600;
+}
+
+#ContactButton:hover {
+    font-weight: 600;
 }
 
 #ListLayoutButtons {
@@ -152,10 +149,15 @@ body {
 }
 
 #ContactPageBackButton {
-    color: red;
+    color: white;
     position: relative;
     left : 25px;
-    bottom: 400px;
-    border : solid;
+    bottom: 410px;
+    font-size: 15px;
     border-radius: 15px;
+    background-color: red;
+}
+
+#ContactPageBackButton:hover {
+    font-weight: 600;
 }
