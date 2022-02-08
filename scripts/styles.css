@@ -1,222 +1,82 @@
-#TestWebsite {
-    color : blue;
-    text-align: center;
-    left: 700px;
-    top: -10px;
-    font-family: sans-serif;
-    margin: 0 auto;
-}
-
-#ContentHolder {
-    position: relative;
-}
-
-#ContactPagePortfolioTitle {
-    color : blue;
-    position: relative;
-    left: 700px;
-    top: 5px;
-    font-family: sans-serif;
-}
-
-#InformationList {
-    color : blue;
-}
-
-#InformationParagraph {
-    text-align: center;
-    left: 500px;
-    top : 25px;
-    font-family: sans-serif;
-    font-weight: 600;
-}
-
-#InformationList {
-    position: relative;
-    left : 570px;
-    top : 195px;
-    line-height: 35px;
-    font-family: sans-serif;
-    font-size: 17px;
-}
-
-#InformationTitle {
-    position : relative;
-    left : 530px;
-    top : 185px;
-    font-family: sans-serif;
-    font-weight : 500px
-}
-
 body {
-    background-color: rgb(184, 195, 255);
+    background-color: rgb(21, 18, 37);
+    overflow-x: hidden;
 }
 
-#ProjectsTitle {
-    position : relative;
-    left : 725px;
-    top : 60px;
-    font-weight : 800px
-}
-
-#GunSystemTitle {
-    color : blue;
-    font-size: 25px;
-    position : relative;
-    left : 680px;
-    top : 80px
-}
-
-#GunSystemVideo {
+.HomepageTitle {
+    font-family:sans-serif;
+    color: #e44856;
+    letter-spacing: -1px;
+    font-weight: 800;
+    font-size: 250%;
     position: relative;
-    left : 600px;
-    top : 90px;
+    left: 75px;
 }
 
-#MainButtonHolder {
-    background-color: rgb(73, 110, 150);
-    padding: 1px;
-    height: 200px;
-    width: 250px;
-    border : solid;
-    border-radius: 10%;
-    position : relative;
-    top : 110px;
-    margin: 0 auto;
+.HomepageHeader {
+    font-family:sans-serif;
+    color: #e44856;
+    letter-spacing: -1px;
+    font-weight: 800;
+    font-size: 175%;
+    position: relative;
+    left: 75px;
+    top: 150px;
 }
 
-#PreviousWorkButton {
-    font-size: 20px;
-    width : 120px;
-    height: 30px;
-    font-size: small;
+.HomepageInfoTitle {
+    font-family:sans-serif;
+    color: #ffffff;
+    letter-spacing: -1px;
+    font-weight: 600;
+    font-size: 250%;
+    position: relative;
+    left: 75px;
+    top: 150px
+}
+
+.HomepageInformation {
+    font-family:sans-serif;
+    color: #ffffff;
+    letter-spacing: -1px;
     font-weight: 500;
-    border-radius: 30px;
-}
-
-#ContactButton {
-    font-size: 20px;
-    border: none;
-    width : 120px;
-    height: 30px;
-    font-weight: 500;
-    border-radius: 30px;
-}
-
-#PreviousWorkButton:hover {
-    font-weight: 600;
-}
-
-#ContactButton:hover {
-    font-weight: 600;
-}
-
-#ListLayoutButtons {
-    list-style-type: none;
+    font-size: 125%;
     position: relative;
-    left: 25px;
+    left: 75px;
+    top: 150px
 }
 
-body {
-    overflow : hidden
-}
-
-#ContactPageTitle {
-    font-family: sans-serif;
-    color : blue;
+.TwitterImage {
+    width: 40px;
     position: relative;
-    left : 730px;
-    top : 25px;
-    font-weight: bolder;
+    top: 170px;
+    left: 74px;
+    border: solid;
+    border-radius: 50%;
+    border-width: 2px;
+    height: 40px;
+    box-sizing: content-box;
+    border-color: #f12334;
+    padding: 5px;
+    
 }
 
-#ContactTitle {
-    font-family: sans-serif;
+.DiscordImage {
+    width: 40px;
     position: relative;
-    left : 550px;
-    top : 40px
+    top: 170px;
+    left: 90px;
+    border: solid;
+    border-radius: 50%;
+    border-width: 2px;
+    height: 40px;
+    box-sizing: content-box;
+    border-color: #f12334;
+    padding: 5px;
 }
 
-#ContactPageButtonHolder {
-    font-family: sans-serif;
+.Holder {
     position: relative;
-    background-color: rgb(73, 110, 150);
-    padding : 1px;
-    border : none;
-    border-radius: 10px;
-    height : 250px;
-    width: 350px;
-    color : black;
-    font-weight: 700;
-    left : 620px;
-    top : 80px;
-    line-height: 40px;
-}
-
-#ButtonHolderContent {
-    position: relative;
-    left : 30px;
-    top : 15px;
-}
-
-#ContactPageBackButton {
-    color: white;
-    position: relative;
-    left : 25px;
-    bottom: 410px;
-    font-size: 15px;
-    border-radius: 15px;
-    background-color: red;
-}
-
-#ContactPageBackButton:hover {
-    font-weight: 600;
-}
-
-#DiscordRedirect {
-    font-size: 15px;
-    border: none;
-    width : 120px;
-    height: 30px;
-    font-weight: 500;
-    font-family: sans-serif;
-    color: black;
-    border-radius: 30px;
-}
-
-#DiscordRedirect:hover {
-    font-weight: 600;
-}
-
-#ProfileImage {
-    border-radius: 20px;
-    position: relative;
-    left: 730px;
-    top : -225px;
-}
-
-#TitlePreviousWork {
-    color : blue;
-    text-align: center;
-    left: 700px;
-    top: -10px;
-    font-family: sans-serif;
-    margin: 0 auto;
-}
-
-#PreviousWorkTitle {
-    font-family: sans-serif;
-    color : blue;
-    left : 695px;
-    top : 25px;
-    font-weight: bolder;
-    text-align: center;
-}
-
-#DiscordBotTitle {
-    font-family: sans-serif;
-    text-align: center;
-    border: 3px solid green;
-    top : 50px;
-    font-size: 25px;
+    left: 20px;
+    top: 30px
 }
