@@ -10,7 +10,7 @@ body {
     font-weight: 800;
     font-size: 250%;
     position: relative;
-    left: 75px;
+    left: 150px;
 }
 
 .HomepageHeader {
@@ -20,7 +20,7 @@ body {
     font-weight: 800;
     font-size: 175%;
     position: relative;
-    left: 75px;
+    left: 150px;
     top: 150px;
 }
 
@@ -31,7 +31,7 @@ body {
     font-weight: 600;
     font-size: 250%;
     position: relative;
-    left: 75px;
+    left: 150px;
     top: 150px
 }
 
@@ -42,41 +42,143 @@ body {
     font-weight: 500;
     font-size: 125%;
     position: relative;
-    left: 75px;
+    left: 150px;
     top: 150px
 }
 
 .TwitterImage {
     width: 40px;
-    position: relative;
-    top: 170px;
-    left: 74px;
     border: solid;
     border-radius: 50%;
     border-width: 2px;
-    height: 40px;
+    box-sizing: content-box;
+    border-color: #f12334;
+    padding: 5px;
+}
+
+.DiscordImage {
+    width: 40px;
+    border: solid;
+    border-radius: 50%;
+    border-width: 2px;
     box-sizing: content-box;
     border-color: #f12334;
     padding: 5px;
     
 }
 
-.DiscordImage {
-    width: 40px;
+.DiscordButton {
     position: relative;
-    top: 170px;
-    left: 90px;
-    border: solid;
-    border-radius: 50%;
-    border-width: 2px;
-    height: 40px;
-    box-sizing: content-box;
-    border-color: #f12334;
-    padding: 5px;
+    left: 12px;
 }
 
 .Holder {
     position: relative;
     left: 20px;
     top: 30px
+}
+
+
+.HomeButton {
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    position: relative;
+    top: -360px;
+    left: 900px;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.InfoButton {
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    position: relative;
+    top: -360px;
+    text-decoration: none;
+    left: 920px;
+    font-family: sans-serif;
+}
+
+.ServiceButton {
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    position: relative;
+    top: -360px;
+    text-decoration: none;
+    left: 940px;
+    font-family: sans-serif;
+}
+
+.ContactButton {
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    position: relative;
+    top: -360px;
+    text-decoration: none;
+    left: 960px;
+    font-family: sans-serif;
+}
+
+.HomepageScrollInfoTitle {
+    font-family:sans-serif;
+    color: #ffffff;
+    letter-spacing: -1px;
+    font-weight: 600;
+    font-size: 220%;
+}
+
+.HomepageScrollInformation {
+    position: relative;
+    left: 950px;
+    top: 300px;
+}
+
+.ScrollInformation {
+    font-family:sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 125%;
+    position: relative;
+    left: -100px;
+    top: 25px
+}
+
+.HomeButton:hover {
+    cursor: pointer;
+}
+
+.InfoButton:hover {
+    cursor: pointer;
+}
+
+.ServiceButton:hover {
+    cursor: pointer;
+}
+
+.ContactButton:hover {
+    cursor: pointer;
+}
+
+.SocialButtons {
+    position: relative;
+    left: 170px;
+    top: 190px;
+}
+
+.TopButtons {
+    position: relative;
+    left: 140px;
+    top: 30px;
 }
