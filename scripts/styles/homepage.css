@@ -151,7 +151,7 @@ body {
     font-weight: 400;
     font-size: 125%;
     position: relative;
-    left: -100px;
+    left: 0px;
     top: 25px
 }
 
@@ -179,16 +179,7 @@ body {
 
 .TopButtons {
     position: relative;
-    left: 140px;
+    left: 500px;
     top: 30px;
 }
                                                                     
-.InfoHeader {
-    font-family:sans-serif;
-    color: #e44856;
-    letter-spacing: -1px;
-    font-weight: 800;
-    font-size: 250%;
-    position: absolute;
-    
-}

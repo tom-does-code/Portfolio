@@ -1,0 +1,180 @@
+body {
+    background-color: rgb(21, 18, 37);
+    overflow-x: hidden;
+}
+
+.InfoHeader {
+    font-family:sans-serif;
+    color: #e44856;
+    letter-spacing: -1px;
+    font-weight: 800;
+    font-size: 200%;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+.NavigationButtons {
+    position: relative;
+    left: 500px;
+    top: 30px;
+}
+                                                                    
+.HomeButton {
+    position: relative;
+    left: 900px;
+    top: 4px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.InfoButton {
+    position: relative;
+    left: 920px;
+    top: 4px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.ServiceButton {
+    position: relative;
+    left: 940px;
+    top: 4px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.ContactButton {
+    position: relative;
+    left: 960px;
+    top: 4px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.CommissionsHeader {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 185%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.InformationParagraph {
+    position: relative;
+    top: 180px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 110%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.MainSkillsHeader {
+    position: relative;
+    top: 210px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 185%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.MainSkillsList {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    top: 230px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 120%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.WhyHireHeader {
+    position: relative;
+    top: 260px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.WhyHireList {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    top: 280px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 120%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.BeforeHeader {
+    position: relative;
+    top: 310px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.BeforeList {
+    display: table;
+    margin: 0 auto;
+    position: relative;
+    top: 340px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 120%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
