@@ -85,7 +85,7 @@ body {
     color: white;
     font-weight: 700;
     font-size: 150%;
-    position: relative;
+    position: inherit;
     top: -360px;
     left: 900px;
     text-decoration: none;
@@ -98,7 +98,7 @@ body {
     color: white;
     font-weight: 700;
     font-size: 150%;
-    position: relative;
+    position: inherit;
     top: -360px;
     text-decoration: none;
     left: 920px;
@@ -111,7 +111,7 @@ body {
     color: white;
     font-weight: 700;
     font-size: 150%;
-    position: relative;
+    position: inherit;
     top: -360px;
     text-decoration: none;
     left: 940px;
@@ -124,7 +124,7 @@ body {
     color: white;
     font-weight: 700;
     font-size: 150%;
-    position: relative;
+    position: inherit;
     top: -360px;
     text-decoration: none;
     left: 960px;
@@ -179,7 +179,7 @@ body {
 
 .TopButtons {
     position: relative;
-    left: 500px;
-    top: 30px;
+    left: 10%;
+    top: 23px;
 }
                                                                     
