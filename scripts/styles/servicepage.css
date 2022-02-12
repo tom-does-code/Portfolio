@@ -1,0 +1,125 @@
+body {
+    background-color: rgb(21, 18, 37);
+    overflow-x: hidden;
+}
+
+.ServiceHeader {
+    font-family:sans-serif;
+    color: #e44856;
+    letter-spacing: -1px;
+    font-weight: 800;
+    font-size: 200%;
+    position: absolute;
+    left: 100px;
+    top: 30px;
+}
+
+.TopButtons {
+    position: relative;
+    left: 9.9%;
+    top: 25px;
+}
+                                                                    
+.HomeButton {
+    position: relative;
+    left: 900px;
+    top: 4px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.InfoButton {
+    position: relative;
+    left: 920px;
+    top: 4px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.ServiceButton {
+    position: relative;
+    left: 940px;
+    top: 4px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.ContactButton {
+    position: relative;
+    left: 960px;
+    top: 4px;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 150%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.SimpleHeader {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 185%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.SimpleParagraph {
+    position: relative;
+    top: 150px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 115%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.DetailedHeader {
+    position: relative;
+    top: 190px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 185%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+.DetailedParagraph {
+    position: relative;
+    top: 210px;
+    text-align: center;
+    background: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    font-size: 115%;
+    text-decoration: none;
+    font-family: sans-serif;
+}
